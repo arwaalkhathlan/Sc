@@ -1,0 +1,82 @@
+
+/* scroll to top button */
+
+.top-btn-position {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.top-btn-style {
+  background-color: #4caf50;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+/* styles.css */
+
+/* Navbar styles */
+.navbar {
+  padding: 10px;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+}
+
+.navbar-nav li {
+  margin: 0;
+}
+
+/* Navbar link styles */
+.nav-link {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #bdc3c7;
+}
+
+/* Section styles */
+.section {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  background-color: #ecf0f1;
+}
+
+/* Section styles*/
+#home {
+  background-color: #3498db;
+  color: #ecf0f1;
+}
+
+#about {
+  background-color: #2ecc71;
+  color: #ecf0f1;
+}
+
+#hiw {
+  background-color: #e74c3c;
+  color: #ecf0f1;
+}
+
+#contact {
+  background-color: #f39c12;
+  color: #ecf0f1;
+}
