@@ -2,6 +2,12 @@
 
 
 /* Navbar style */
+.navbar{
+  background-color: #fff;
+  padding: 10px 30px  10px 30px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
 .navbar-toggler{
   border: none;
   cursor: pointer;
@@ -18,8 +24,6 @@
     background-color: transparent;
     border-color: transparent;
     color: #B2A4FF;
-    padding: 10px 20px;
-    margin-left: 30px;
     font-weight: bold;
     
 }
@@ -28,8 +32,6 @@
     background-color: transparent;
     border-color: #B2A4FF;
     color: #B2A4FF;
-    padding: 10px 20px;
-    margin-left: 30px;
     font-weight: bold;
 }
 
@@ -54,3 +56,27 @@
 }
 
 /* end of welcome style */
+
+/* Footer Style */
+
+.Footer-body{
+  background-color: #F1EAFF ;
+  padding: 20px 30px;
+}
+
+.icon {
+  color: #B2A4FF;
+}
+
+.icon:hover {
+  color: #756AB6;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+/* End of Footer Style */

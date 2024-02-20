@@ -8,6 +8,7 @@ import HomeSection from './pages/homeSection';
 import AboutSection from './pages/aboutSection';
 import ContactUs from './pages/contactUs';
 import HiwSection from './pages/hiwSection';
+import Footer from './components/Footer';
 
 function App() {
     const home = useRef(null);
@@ -26,10 +27,11 @@ function App() {
 
     return (
         <>
-        <div className='navbar justify-content-center'>
+        <container>
+        
+        <header className='navbar navbar-expand-lg bg-body-tertiary'>
 
-            <header class="navbar navbar-expand-lg bg-body-tertiary ">
-            <div class="container-fluid">
+            <div class="container-fluid ">
 
             <Link class="navbar-brand" to="/" onClick={() => scrollToSection(home)}>logo</Link>
 
@@ -48,9 +50,9 @@ function App() {
             </button>
 
                 <div className="collapse navbar-collapse " id="navbarNav">
-                    <ul className="navbar-nav">
+                    <ul className="navbar-nav mx-auto ">
 
-                        <li className="nav-item">
+                        <li className="nav-item ">
                             <Link className="nav-link" to="/" onClick={() => scrollToSection(home)}>
                                 Home
                             </Link>
@@ -75,7 +77,6 @@ function App() {
                 </div>
                 </div>
             </header>
-            </div>
 
             <div ref={home}>
                 <HomeSection />
@@ -92,6 +93,9 @@ function App() {
             <div ref={contact}>
                 <ContactUs />
             </div>
+
+            <Footer />
+            </container>
             </>
         
     );
