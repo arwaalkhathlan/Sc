@@ -1,82 +1,56 @@
 
-/* scroll to top button */
 
-.top-btn-position {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-}
 
-.top-btn-style {
-  background-color: #4caf50;
-  color: white;
-  padding: 15px 20px;
+/* Navbar style */
+.navbar-toggler{
   border: none;
   cursor: pointer;
-  border-radius: 5px;
-  font-size: 18px;
+  
 }
 
-/* styles.css */
-
-/* Navbar styles */
-.navbar {
-  padding: 10px;
+.navbar-toggler:focus{
+  outline: none;
 }
 
-.navbar-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  list-style: none;
-  margin: 0;
+
+/* Navbar button style */
+.btn-login{
+    background-color: transparent;
+    border-color: transparent;
+    color: #B2A4FF;
+    padding: 10px 20px;
+    margin-left: 30px;
+    font-weight: bold;
+    
 }
 
-.navbar-nav li {
-  margin: 0;
+.btn-2{
+    background-color: transparent;
+    border-color: #B2A4FF;
+    color: #B2A4FF;
+    padding: 10px 20px;
+    margin-left: 30px;
+    font-weight: bold;
 }
 
-/* Navbar link styles */
-.nav-link {
-  text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  padding: 10px 15px;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
+.btn-login:hover , .btn-signup:hover {
+    background-color: #B2A4FF;
+    border-color: none;
 }
 
-.nav-link:hover {
-  background-color: #bdc3c7;
+/* End of Navbar button style */
+
+/* End of Navbar style */
+
+/* welcome style */
+
+.welcome-btn{
+  background-color: #B2A4FF;
+  border-color: #B2A4FF;
+  color: #fff;
+  padding: 10px 20px;
+  margin-left: 30px;
+  font-weight: bold;
 }
 
-/* Section styles */
-.section {
-  height: 500px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 24px;
-  background-color: #ecf0f1;
-}
-
-/* Section styles*/
-#home {
-  background-color: #3498db;
-  color: #ecf0f1;
-}
-
-#about {
-  background-color: #2ecc71;
-  color: #ecf0f1;
-}
-
-#hiw {
-  background-color: #e74c3c;
-  color: #ecf0f1;
-}
-
-#contact {
-  background-color: #f39c12;
-  color: #ecf0f1;
-}
+/* end of welcome style */

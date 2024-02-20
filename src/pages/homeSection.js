@@ -1,10 +1,11 @@
 // HomeSection.js
 import React from 'react';
+import Welcome from '../components/welcome';
 
 const HomeSection = () => {
     return (
         <div>
-            {/* Your component content */}
+            <Welcome />
         </div>
     );
 };
