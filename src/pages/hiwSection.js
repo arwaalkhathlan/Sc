@@ -1,18 +1,21 @@
-
 import React from 'react';
-import Hiw from '../assets/welcomeimg.jpg';
 
 const HiwSection = () => {
-    return (
-        <div className='container mt-5 p-5' >
-      <div className='row'>
-      <div className='col-md-6 '>
-          <img className='img-fluid rounded-5' src={Hiw} alt='Hiw' />
+  return (
+    <div className='col-md-6 mt-5 mx-auto text-center'>
+      <h1 style={{ fontSize: '2rem', fontWeight: 'bold', color: '#333' }}>
+        How it works
+      </h1>
+      <div className="container mt-5 p-5">
+        <div className="row row-cols-2">
+          <div className="col">Column</div>
+          <div className="col">Column</div>
+          <div className="col">Column</div>
+          <div className="col">Column</div>
         </div>
-        </div>
-        </div>
-        
-    );
+      </div>
+    </div>
+  );
 };
 
 export default HiwSection;
