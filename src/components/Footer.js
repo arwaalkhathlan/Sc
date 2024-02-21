@@ -2,6 +2,8 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faYoutube, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
+import logo from '../assets/logo.png';
+
 import '../css/index.css';
 
 const Footer = () => {
@@ -16,9 +18,9 @@ const Footer = () => {
       <div className='Footer-body container-fluid'>
         <div className='row'>
           <div className='col-12 text-center'>
-          <h4>logo</h4>
+          <img src={logo} alt="logo" width="120" height="100" className="d-inline-block align-text-top" />
 
-          <img alt='logo'/>
+          <div>
 
             <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faYoutube} className="icon" style={iconStyle} />
@@ -29,6 +31,8 @@ const Footer = () => {
             <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faLinkedin} className="icon" style={iconStyle} />
             </a>
+            
+          </div>
 
             <p className="mt-2">All Rights Reserved @ </p>
           </div>

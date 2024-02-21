@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/index.css';
+import logo from './assets/logo.png';
 
 import NavbarButtons from './components/navbarButtons';
 import HomeSection from './pages/homeSection';
@@ -28,7 +29,7 @@ function App() {
                 <header className='navbar navbar-expand-lg bg-body-tertiary'>
                     <div className="container-fluid">
                         <Link className="navbar-brand" to="/" onClick={() => scrollToSection(home)}>
-                            Logo
+                            <img src={logo} alt="logo" width="120" height="100" className="d-inline-block align-text-top" />
                         </Link>
                         <button
                             className="navbar-toggler"
