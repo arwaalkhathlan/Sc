@@ -23,21 +23,21 @@
 .btn-login{
     background-color: transparent;
     border-color: transparent;
-    color: #B2A4FF;
+    color: #9A92F3;
     font-weight: bold;
     
 }
 
 .btn-2{
     background-color: transparent;
-    border-color: #B2A4FF;
-    color: #B2A4FF;
+    border-color: #9A92F3;
+    color: #9A92F3;
     font-weight: bold;
 }
 
-.btn-login:hover , .btn-signup:hover {
-    background-color: #B2A4FF;
-    border-color: none;
+.btn-login:hover , .btn-2:hover {
+    background-color: #9A92F3;
+    border-color: transparent;
 }
 
 /* End of Navbar button style */
@@ -46,13 +46,17 @@
 
 /* welcome style */
 
-.welcome-btn{
-  background-color: #B2A4FF;
-  border-color: #B2A4FF;
+.second-btn{
+  background-color: #9A92F3;
+  border-color: #9A92F3;
   color: #fff;
   padding: 10px 20px;
-  margin-left: 30px;
   font-weight: bold;
+}
+
+.second-btn:hover{
+  background-color: #756AB6;
+  border-color: #756AB6;
 }
 
 /* end of welcome style */
@@ -65,7 +69,7 @@
 }
 
 .icon {
-  color: #B2A4FF;
+  color: #9A92F3;
 }
 
 .icon:hover {
@@ -79,3 +83,9 @@ footer {
 
 
 /* End of Footer Style */
+
+/* hiw style section */
+
+.col{
+  border-color: #9A92F3;
+}

@@ -1,16 +1,12 @@
 import React from 'react';
-import AboutUs from '../assets/welcomeimg.jpg';
+import AboutUs from '../assets/AboutUs.png';
+
 
 const AboutSection = () => {
     return (
-        <div className='container mt-5 p-5' >
-      <div className='row'>
-      <div className='col-md-6 '>
-          <img className='img-fluid rounded-5' src={AboutUs} alt='About us' />
-        </div>
-
-
-        <div className='col-md-6 my-auto mx-auto'>
+      
+        <div className='container my-auto mx-auto mt-5 p-5 text-center'>
+        
           <h1 style={{ fontSize: '2rem', fontWeight: 'bold', color: '#333' }}>
             About Us
           </h1>
@@ -21,10 +17,9 @@ const AboutSection = () => {
             understanding and propel you forward. And the best part? Completing these projects strengthens your certification credibility,
             showcasing your actively-acquired skills to potential employers.
           </h3>
-        </div>
+          <img className='img-fluid rounded-5 w-75 mt-5' src={AboutUs} alt='About us' />
 
         
-      </div>
     </div>
     );
 };

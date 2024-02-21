@@ -15,7 +15,7 @@ const Welcome = () => {
             constructive feedback that enhances your learning journey. Elevate your certifications.
           </h3>
           <div>
-            <Button className='welcome-btn m-2 rounded-3'>Get Started now</Button>
+            <Button className='second-btn mt-2 rounded-3'>Get Started now</Button>
           </div>
         </div>
 

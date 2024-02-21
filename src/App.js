@@ -69,6 +69,8 @@ function App() {
                     </div>
                 </header>
 
+                <div className='container' >
+
                 <div ref={home}>
                     <HomeSection />
                 </div>
@@ -83,6 +85,7 @@ function App() {
 
                 <div ref={contact}>
                     <ContactUs />
+                </div>
                 </div>
 
                 <Footer />
