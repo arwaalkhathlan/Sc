@@ -23,81 +23,70 @@ function App() {
         });
     };
 
-    // 
-
     return (
         <>
-        <container>
-        
-        <header className='navbar navbar-expand-lg bg-body-tertiary'>
+                <header className='navbar navbar-expand-lg bg-body-tertiary'>
+                    <div className="container-fluid">
+                        <Link className="navbar-brand" to="/" onClick={() => scrollToSection(home)}>
+                            Logo
+                        </Link>
+                        <button
+                            className="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav"
+                            aria-controls="navbarNav"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
+                            <span className="navbar-toggler-icon"></span>
+                        </button>
+                        <div className="collapse navbar-collapse" id="navbarNav">
+                            <ul className="navbar-nav mx-auto">
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="/" onClick={() => scrollToSection(home)}>
+                                        Home
+                                    </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="/about" onClick={() => scrollToSection(about)}>
+                                        About us
+                                    </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="/hiw" onClick={() => scrollToSection(hiw)}>
+                                        How it works
+                                    </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="/contact" onClick={() => scrollToSection(contact)}>
+                                        Contact us
+                                    </Link>
+                                </li>
+                            </ul>
+                            <NavbarButtons />
+                        </div>
+                    </div>
+                </header>
 
-            <div class="container-fluid ">
-
-            <Link class="navbar-brand" to="/" onClick={() => scrollToSection(home)}>logo</Link>
-
-            
-
-            <button 
-            class="navbar-toggler" 
-            className='navbar-toggler'
-            type="button" 
-            data-bs-toggle="collapse" 
-            data-bs-target="#navbarNav" 
-            aria-controls="navbarNav" 
-            aria-expanded="false" 
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-
-                <div className="collapse navbar-collapse " id="navbarNav">
-                    <ul className="navbar-nav mx-auto ">
-
-                        <li className="nav-item ">
-                            <Link className="nav-link" to="/" onClick={() => scrollToSection(home)}>
-                                Home
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/about" onClick={() => scrollToSection(about)}>
-                                About us
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/hiw" onClick={() => scrollToSection(hiw)}>
-                                How it works
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/contact" onClick={() => scrollToSection(contact)}>
-                                Contact us
-                            </Link>
-                        </li>
-                    </ul>
-                    <NavbarButtons />
+                <div ref={home}>
+                    <HomeSection />
                 </div>
+
+                <div ref={about}>
+                    <AboutSection />
                 </div>
-            </header>
 
-            <div ref={home}>
-                <HomeSection />
-            </div>
+                <div ref={hiw}>
+                    <HiwSection />
+                </div>
 
-            <div ref={about}>
-                <AboutSection />
-            </div>
+                <div ref={contact}>
+                    <ContactUs />
+                </div>
 
-            <div ref={hiw}>
-                <HiwSection />
-            </div>
-
-            <div ref={contact}>
-                <ContactUs />
-            </div>
-
-            <Footer />
-            </container>
-            </>
-        
+                <Footer />
+        </>
     );
 }
 
