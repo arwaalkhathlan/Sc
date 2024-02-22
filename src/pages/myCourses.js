@@ -1,6 +1,6 @@
 import ProfileNavBar from '../components/profileNavBar';
 import React from 'react';
-import { Card, Container, Nav, Navbar, Col, Row,Button,Image,DropdownButton,Dropdown} from "react-bootstrap";
+import { Card, Container, Nav, Navbar, Col, Row , Button , Image ,DropdownButton,Dropdown} from "react-bootstrap";
 import '../css/myCourses.css';
 import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
@@ -28,14 +28,14 @@ const MyCourses = () => {
               </div>
               <div className="col-7">
               
-              <DropdownButton className="custom-dropdown" style={{ marginBottom: '40px', marginTop:'60px'}} id="dropdown-basic-button" title="Course Provider ">
+            <DropdownButton className="custom-dropdown"  variant="custom" style={{ marginBottom: '40px', marginTop:'60px'}} id="dropdown-basic-button" title="Course Provider ">
              <Dropdown.Item href="#/action-1">edx</Dropdown.Item>
              <Dropdown.Item href="#/action-2">coursera </Dropdown.Item>
              <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
              </DropdownButton>
           
         
-             <DropdownButton style={{ marginBottom: '40px'}}  title="Course Name">
+             <DropdownButton  variant="custom" style={{ marginBottom: '40px'}}  title="Course Name">
              <Dropdown.Item href="#/action-1">Advanced Styling with Responsive Design</Dropdown.Item>
              <Dropdown.Item href="#/action-2">ux design fundamentals </Dropdown.Item>
              <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>

@@ -12,3 +12,13 @@ button{
     border: none;
 
 }
+
+.btn-custom {
+    background-color: #9A92F3;
+    color: white;
+  }
+  
+  .btn-custom:hover {
+    background-color: #9A92F3;
+  }
+  

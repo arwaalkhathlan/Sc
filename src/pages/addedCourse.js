@@ -5,7 +5,10 @@ import { Card, Container, Nav, Navbar, Col, Row,Button,Image,DropdownButton,Drop
 
 const AddedCourse = () => {
     return ( 
-        <><ProfileNavBar/>
+        <>
+
+
+        <ProfileNavBar/>
 
 
         <main style={{ display: 'flex', alignItems: 'center', minHeight: '50vh' }}>
@@ -19,9 +22,9 @@ const AddedCourse = () => {
                 <h3>Advanced Styling with Responsive Design</h3>
 
                 <DropdownButton style={{ marginBottom: '40px', marginTop:'60px'}} id="dropdown-basic-button" title="Assessments ">
-             <Dropdown.Item href="#/action-1">Week 2: Create a Responsive Stylesheet</Dropdown.Item>
-             <Dropdown.Item href="#/action-2">week 4: final project photo gallery  </Dropdown.Item>
-             </DropdownButton>
+                  <Dropdown.Item href="#/action-1">Week 2: Create a Responsive Stylesheet</Dropdown.Item>
+                  <Dropdown.Item href="#/action-2">week 4: final project photo gallery  </Dropdown.Item>
+                </DropdownButton>
 
              
              <div class="form-group">
