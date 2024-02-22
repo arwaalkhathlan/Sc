@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom';
 const NavbarButtons = () => {
 
 
-  const handleLogin = () => {
-    console.log('Login button clicked');
-  };
+  // const handleLogin = () => {
+  //   console.log('Login button clicked');
+  // };
 
   const handleSignUp = () => {
     console.log('Sign Up button clicked');

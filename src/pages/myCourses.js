@@ -1,6 +1,6 @@
 import ProfileNavBar from '../components/profileNavBar';
 import React from 'react';
-import { Card, Container, Nav, Navbar, Col, Row , Button , Image ,DropdownButton,Dropdown} from "react-bootstrap";
+import { Button ,DropdownButton,Dropdown} from "react-bootstrap";
 import '../css/myCourses.css';
 import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';

@@ -1,6 +1,6 @@
-import React ,{ useRef } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import { Card, Container, Nav, Navbar, Col, Row,Button,Image,DropdownButton,Dropdown} from "react-bootstrap";
+import { Card, Container, Nav, Col, Row ,Image } from "react-bootstrap";
 import profile from '../assets/profile.png';
 
 

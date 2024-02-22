@@ -1,7 +1,7 @@
 import ProfileNavBar from '../components/profileNavBar';
 import ProfileCard from '../components/profileCard';
 import Footer from '../components/Footer';
-import { Card, Container, Nav, Navbar, Col, Row,Button,Image,DropdownButton,Dropdown} from "react-bootstrap";
+import { Button,DropdownButton,Dropdown} from "react-bootstrap";
 
 const AddedCourse = () => {
     return ( 
