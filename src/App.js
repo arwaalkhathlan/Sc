@@ -4,12 +4,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/index.css';
 import logo from './assets/logo.png';
 
+
+
 import NavbarButtons from './components/navbarButtons';
 import HomeSection from './pages/homeSection';
 import AboutSection from './pages/aboutSection';
 import ContactUs from './pages/contactUs';
 import HiwSection from './pages/hiwSection';
 import Footer from './components/Footer';
+
 
 function App() {
     const home = useRef(null);
@@ -87,6 +90,7 @@ function App() {
                 <div ref={contact}>
                     <ContactUs />
                 </div>
+
                 </div>
 
                 <Footer />

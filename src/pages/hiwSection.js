@@ -18,7 +18,7 @@ const HiwSection = () => {
 
         <div className="container mb-5 w-50">
           <div className="row ">
-            <div className="col-md-6 border rounded-3">Register</div>
+            <div  className="col-md-6 border rounded-3">Register</div>
             <div className="col-md-6 border rounded-3">Submit</div>
             <div className="col-md-6 border rounded-3">Review</div>
             <div className="col-md-6 border rounded-3">Volunteer Recognition</div>
