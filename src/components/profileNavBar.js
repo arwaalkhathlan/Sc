@@ -1,7 +1,6 @@
 
 import React ,{ useRef } from 'react';
 import { Link } from 'react-router-dom';
-import NavbarButtons from './navbarButtons';
 import logo from '../assets/logo.png';
 
 
@@ -67,7 +66,7 @@ const ProfileHeader = () => {
                     </Link>
                 </li>
             </ul>
-            <NavbarButtons />
+           
         </div>
     </div>
     </header>
