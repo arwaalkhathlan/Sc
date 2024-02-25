@@ -2,7 +2,7 @@
 
 <div align = center>
 
-<img src="./src/assets/logo.png" width="200">
+<img src="./src/assets/logo.png" >
 
 </div>
 
@@ -24,10 +24,10 @@ The project aims to address challenges in online learning by offering a service 
 
 ## Installation
 
- Clone the repository
+- Clone the repository
 
 git clone https://github.com/arwaalkhathlan/Sc.git
 
- Install dependencies
+- Install dependencies
 
 npm install
