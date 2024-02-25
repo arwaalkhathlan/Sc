@@ -2,7 +2,7 @@
 
 <div align = center>
 
-<img src="./src/assets/logo.png" >
+<img src="./src/assets/logo2.jfif" >
 
 </div>
 
