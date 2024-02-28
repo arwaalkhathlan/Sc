@@ -84,8 +84,17 @@ footer {
 
 /* End of Footer Style */
 
-/* hiw style section */
 
-.col{
+/* hiw style section */
+.hiw-btn {
   border-color: #9A92F3;
+  background: none;
+  color: black;
+  
+}
+
+.hiw-btn:hover{
+  background-color: #9A92F3;
+  border-color: #9A92F3
+
 }

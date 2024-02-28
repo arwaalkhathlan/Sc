@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/index.css';
+import {Button} from 'react-bootstrap';
 
 const HiwSection = () => {
   return (
@@ -17,11 +18,11 @@ const HiwSection = () => {
         </p>
 
         <div className="container mb-5 w-50">
-          <div className="row ">
-            <div  className="col-md-6 border rounded-3">Register</div>
-            <div className="col-md-6 border rounded-3">Submit</div>
-            <div className="col-md-6 border rounded-3">Review</div>
-            <div className="col-md-6 border rounded-3">Volunteer Recognition</div>
+          <div className="row">
+            <div className="col-md-6 my-1  text-md-end " >  <Button className='hiw-btn' >Register</Button> </div>
+            <div className="col-md-6 my-1 text-md-start ">  <Button className='hiw-btn' >Submit</Button></div>
+            <div className="col-md-6 my-1 text-md-end ">  <Button className='hiw-btn' >Review</Button></div>
+            <div className="col-md-6 my-1 text-md-start ">  <Button className='hiw-btn'>Volunteer Recognition</Button></div>
           </div>
         </div>
       </div>
